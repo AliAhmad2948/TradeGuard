@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_service_description">Monitors MT5 activity and locks platform after 6:30 PM PKT.</string>
+</resources>
