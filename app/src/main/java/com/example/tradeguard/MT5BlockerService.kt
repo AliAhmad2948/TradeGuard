@@ -8,7 +8,7 @@ import java.util.TimeZone
 
 class MT5BlockerService : AccessibilityService() {
 
-    private val targetPackage = "com.metaquotes.metatrader5"
+    private val targetPackage = "net.metaquotes.metatrader5"
 
     override fun onAccessibilityEvent(event: AccessibilityEvent?) {
         if (event == null || event.eventType != AccessibilityEvent.TYPE_WINDOW_STATE_CHANGED) return
